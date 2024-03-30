@@ -54,6 +54,11 @@ contract RouleFiToken {
     
     function burn(address to, uint256 amount) external isroulefiContract {
         require(balance[to] >= amount, "n다.
+```
+
+roulefi.sol File:
+probability Staking system을 구현한 컨트랙트이며, 스테이킹 티켓 구매와 티켓 체킹 함수가 내장되어 있습니다.
+
 ```java
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
