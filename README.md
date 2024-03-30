@@ -53,19 +53,7 @@ contract RouleFiToken {
     }
     
     function burn(address to, uint256 amount) external isroulefiContract {
-        require(balance[to] >= amount, "not enough token");
-        balance[to] -= amount;
-    }
-    
-    function balanceOf(address _user) external view returns (uint256) {
-        return balance[_user];
-    }
-}
-```
-
-roulefi.sol File: 
-
-probability Staking 시스템을 구현한 컨트랙트이며, 스테이킹 티켓 구매와 티켓 확인 함수가 내장되어있다.
+        require(balance[to] >= amount, "n다.
 ```java
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
